@@ -9,6 +9,9 @@
   },
   "author": "Aaron Imming <aaim@protonmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "logicful-templates": "^1.0.5"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-react-jsx": "^7.16.0",
@@ -16,7 +19,6 @@
     "@babel/preset-react": "^7.16.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
-    "logicful-templates": "^1.0.1",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2"
   },

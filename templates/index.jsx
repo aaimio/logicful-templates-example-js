@@ -1,3 +1,5 @@
+import 'logicful-templates/typings/html';
+
 const Template = () => {
   const employees = [
     { name: 'Petra', age: 33, title: 'Chief Template Creator' },
