@@ -10,7 +10,7 @@
   "author": "Aaron Imming <aaim@protonmail.com>",
   "license": "MIT",
   "dependencies": {
-    "logicful-templates": "^1.0.5"
+    "logicful-templates": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

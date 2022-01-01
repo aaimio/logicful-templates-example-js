@@ -1,6 +1,6 @@
 const { transform } = require('@babel/core');
 const fs = require('fs');
-const { compileTemplate } = require('logicful-templates');
+const LogicfulTemplates = require('logicful-templates').default;
 const path = require('path');
 const rimraf = require('rimraf');
 
@@ -143,7 +143,7 @@ const compileTemplates = async () => {
       continue;
     }
 
-    const htmlContents = compileTemplate(() => module.default(), { pretty: true });
+    const htmlContents = LogicfulTemplates.compileTemplate(() => module.default(), { pretty: true });
     const htmlFileName = `${path.parse(path.basename(paths[i])).name}.html`;
     const htmlOutputPath = path.resolve(distPath, htmlFileName);
 

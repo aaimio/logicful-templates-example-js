@@ -1,5 +1,3 @@
-import 'logicful-templates/typings/html';
-
 const Template = () => {
   const employees = [
     { name: 'Petra', age: 33, title: 'Chief Template Creator' },
@@ -9,27 +7,25 @@ const Template = () => {
   ];
 
   return (
-    <>
-      <html lang='en'>
-        <head>
-          <title>An example JSX template</title>
-          <meta charset='UTF-8' />
-          <script type='text/javascript' $innerHTML='alert("An in-your-face message!")' />
-        </head>
-        <body>
-          <div class='employees'>
-            {employees.map((employee) => (
-              <div class='employee'>
-                <div class='name'>
-                  {employee.name}, {employee.age}
-                </div>
-                <div class='title'>{employee.title}</div>
+    <html lang='en'>
+      <head>
+        <title>An example JSX template</title>
+        <meta charSet='UTF-8' />
+        <script type='text/javascript' dangerouslySetInnerHTML={{ __html: 'alert("An in-your-face message!")' }} />
+      </head>
+      <body>
+        <div className='employees'>
+          {employees.map((employee) => (
+            <div key={employee.name} className='employee'>
+              <div className='name'>
+                {employee.name}, {employee.age}
               </div>
-            ))}
-          </div>
-        </body>
-      </html>
-    </>
+              <div className='title'>{employee.title}</div>
+            </div>
+          ))}
+        </div>
+      </body>
+    </html>
   );
 };
 

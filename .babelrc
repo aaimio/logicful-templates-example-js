@@ -5,7 +5,7 @@
       "@babel/plugin-transform-react-jsx",
       {
         "runtime": "automatic",
-        "importSource": "logicful-templates"
+        "importSource": "react"
       }
     ]
   ]
