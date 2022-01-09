@@ -1,4 +1,4 @@
-An example project demonstrating how to use the logicful-templates library when using JavaScript
+An example project demonstrating how to use the logicful-templates library using JavaScript
 
 For the full documentation:
 

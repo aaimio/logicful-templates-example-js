@@ -1,7 +1,7 @@
 {
   "name": "logicful-templates-example-js",
   "version": "1.0.0",
-  "description": "An example project demonstrating how to use the logicful-templates library when using JavaScript",
+  "description": "An example project demonstrating how to use the logicful-templates library using JavaScript",
   "private": true,
   "scripts": {
     "compile": "node scripts/compile-templates.js",
@@ -9,9 +9,6 @@
   },
   "author": "Aaron Imming <aaim@protonmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "logicful-templates": "^2.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-react-jsx": "^7.16.0",
@@ -19,6 +16,7 @@
     "@babel/preset-react": "^7.16.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
+    "logicful-templates": "^3.0.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2"
   },
